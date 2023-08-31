@@ -1,0 +1,11 @@
+* {
+  margin: auto;
+  padding: 0;
+}
+
+.head h1 {
+  font-size: xx-large;
+  text-align: center;
+  color: blue;
+  padding: 9em;
+}
