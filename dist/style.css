@@ -1,5 +1,10 @@
-body{
-  font-family:"Patua One", cursive ;
-  background-color: aquamarine;
+@layer utilities {
+  .content-auto {
+    content-visibility: auto;
+  }
 }
 
+body {
+  font-family: "Patua One", cursive;
+  background-color: aquamarine;
+}
