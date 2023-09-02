@@ -10,15 +10,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            screens: {
+              small: "320px",
+            },
+          },
+        },
+      };
+    </script>
   </head>
   <body>
-    <div class="container-sm mx-auto p-2">
-      <div class="flex">
-        <img class="flex-1 mx-3" src="dist/giphy.gif" class="flex items-start" alt="" />
-        <img class="flex-1 mx-3" src="dist/giphy.gif" alt="" />
+    <div class="container">
+      <div class="flex-row items-center">
+        <img class="flex-1 mx-2 my-2" src="dist/giphy.gif" alt="" />
+        <img class="flex-1 mx-2 my-2" src="dist/giphy.gif" alt="" />
       </div>
       <div class="ucapan">
-        <h1 class="text-3xl text-center">SELAMAT ULANG TAHUN GITA</h1>
+        <h1 class="text-5xl text-center small:text-center">SELAMAT ULANG TAHUN GITA</h1>
       </div>
     </div>
   </body>
