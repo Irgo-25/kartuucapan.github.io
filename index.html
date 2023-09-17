@@ -15,11 +15,11 @@
         theme: {
           extend: {
             screens: {
-              small: "320px",
+              small: '320px',
             },
           },
         },
-      };
+      }
     </script>
   </head>
   <body>
@@ -32,11 +32,14 @@
           <img class="rounded-lg" src="dist/giphy.gif" alt="" />
         </div>
       </div>
+      <div class="max-w-[8rem] h-10 mx-auto rounded-lg bg-red-600 shadow-lg relative cursor-pointer" id="tombol">
+        <button type="button" class="text-1xl absolute bottom-2 left-4 text-stone-50" id="tombol">Tekan tombol</button>
+      </div>
       <div class="text-6xl text-center relative">
-        <h1 class="bg-gradient-to-l md:bg-gradient-to-r from-orange-600 to-amber-300 text-transparent bg-clip-text">SELAMAT ULANG TAHUN GITA</h1>
+        <h1 class="bg-gradient-to-l md:bg-gradient-to-r from-sky-600 to-blue-800 text-transparent bg-clip-text">SELAMAT ULANG TAHUN GITA</h1>
         <span class="animate-pulse">❤️❤️</span>
       </div>
-      <div class="container bg-[#8ecae6] border rounded-lg p-4 mt-6 columns-3 mx-auto">
+      <div class="container bg-[#219ebc] border rounded-lg p-4 mt-6 columns-3 mx-auto">
         <img class="mb-2" src="dist/img1.jpg" alt="" />
         <img class="mb-2" src="dist/img2.jpg" alt="" />
         <img class="mb-2" src="dist/img3.jpg" alt="" />
@@ -44,7 +47,7 @@
         <img class="mb-2" src="dist/img5.jpg" alt="" />
         <img class="mb-2" src="dist/img6.jpg" alt="" />
       </div>
-      <div class="container bg-[#8ecae6] border rounded-lg p-4 mt-6 columns-3 mx-auto">
+      <div class="container bg-[#219ebc] border rounded-lg p-4 mt-6 columns-3 mx-auto">
         <img class="mb-2" src="dist/img7.jpg" alt="" />
         <img class="mb-2" src="dist/img8.jpg" alt="" />
         <img class="mb-2" src="dist/img11.jpg" alt="" />
@@ -53,5 +56,7 @@
         <img class="mb-2" src="dist/img16.jpg" alt="" />
       </div>
     </div>
+    <script src="dist/config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>
